@@ -1,0 +1,68 @@
+* {
+  border: 1px solid red;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 0% 15%;
+}
+
+.hero,
+.info,
+.quote,
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header Section */
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50%;
+}
+
+.nav-links {
+  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+}
+/* Hero Section */
+
+/* Info Section */
+.info-cards {
+  display: flex;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+/* Quote Section */
+.quote {
+  margin: 10%;
+  display: flex;
+}
+
+.quote-text,
+.quote-author {
+  margin: 0;
+}
+
+.quote-author {
+  text-align: right;
+}
+
+/* Call to Action Section */
+.cta-container {
+  display: flex;
+  align-items: center; /* vertically align them */
+}
+
+/* Footer Section */
